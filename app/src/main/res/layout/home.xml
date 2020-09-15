@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    android:screenOrientation="portrait">
+
+    <TextView
+        android:id="@+id/textView_witaj"
+        android:text="@string/home_witaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/textColor_primary"/>
+
+    <TextView
+        android:id="@+id/textView_nazwaapk"
+        android:text="GalerioPogoda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView_witaj"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/margin_witaj_nazwaapk"
+        android:textColor="@color/home_appname"
+        android:singleLine="false"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView_opis"
+        android:text="@string/home_opis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_nazwaapk"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/textColor_primary"/>
+
+
+
+    <TextView
+        android:id="@+id/textView_stworzona"
+        android:text="@string/home_stworzona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_above="@+id/textView_autor"
+        android:layout_alignEnd="@+id/textView_autor"
+        android:layout_alignStart="@+id/textView_autor"
+        android:gravity="center"
+        android:textColor="@color/textColor_primary"/>
+
+    <TextView
+        android:id="@+id/textView_autor"
+        android:text="@string/home_autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView_dlakogo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/margin_autor_dlakogo"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/textColor_primary"/>
+
+    <TextView
+        android:id="@+id/textView_dlakogo"
+        android:text="@string/home_dlakogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView_logo"
+        android:textSize="20sp"
+
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/textColor_primary"/>
+
+    <ImageView
+        android:id="@+id/imageView_logo"
+        android:src="@drawable/company_logo"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/logo" />
+
+</RelativeLayout>
+
+<!--
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is fragment 1 - home"
+            android:textSize="30dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+-->

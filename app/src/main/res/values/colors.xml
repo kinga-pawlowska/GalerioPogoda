@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ea9839</color>
+    <color name="colorPrimaryDark">#dc6832</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#ffebc0</color>
+    <color name="textColor_primary">#282828</color>
+    <color name="divider">#3d3d3d</color>
+    <color name="home_appname">#dc6832</color>
+    <color name="sliding_menu_background">#FFFFFF</color>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GalerioPogoda</string>
+    <string name="drawer_opened">Otworzony</string>
+    <string name="drawer_closed">Zamknięty</string>
+    <string name="home_witaj">Witaj w aplikacji</string>
+    <string name="home_opis">
+        Jest to aplikacja, w której możesz sprawdzić aktualną prognozę pogody
+        dla wybranego miasta oraz obejrzeć galerię zdjęć.
+    </string>
+    <string name="home_stworzona">Aplikacja stworzona przez:</string>
+    <string name="home_autor">Kingę Pawłowską</string>
+    <string name="home_dlakogo">dla firmy:</string>
+    <string name="logo">logo</string>
+</resources>
